@@ -38,7 +38,7 @@
     npm start
 ```
 
-**生产环境 - builder**
+**生产环境 - build**
 ``` javascript
     npm run build
 ```
