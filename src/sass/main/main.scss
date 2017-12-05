@@ -1,0 +1,14 @@
+$border-radius: 50%;
+.main {
+  width: 1200px;
+  height: 500px;
+  background: yellow;
+  margin: 0 auto;
+  .icon{
+    width:100px;
+    height:100px;
+    background: url("../img/01.png") no-repeat;
+    background-size: cover;
+    border-radius: $border-radius;
+  }
+}
