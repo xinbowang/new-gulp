@@ -211,7 +211,7 @@ function dev(dist, env, port) {
           }
           , notify: false
           , port // 默认3000,
-          , index: 'login.html'
+          , index: 'index.html'
         });
       });
     }else{
@@ -223,7 +223,7 @@ function dev(dist, env, port) {
           }
           , notify: false
           , port // 默认3000
-          , index: 'login.html'
+          , index: 'index.html'
         });
         gulp.watch(Path.asserts, ['asserts:dev']);
         gulp.watch(Path.sass, ['sass:dev']);
